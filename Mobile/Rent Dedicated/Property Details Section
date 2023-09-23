@@ -1,0 +1,61 @@
+Here are the additional test cases with the module, description, and priority in a table format:
+
+| Module               | Description                                                                                                                             | Priority |
+| -------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | -------- |
+| Address and Map Section | To verify Price should get displayed below the offer section                                                                              | High     |
+|                        | Price breakup link should get displayed beside the property price                                                                         | High     |
+|                        | To verify the text '{BHK type} {property type} for rent in' should get displayed below the price break-up                                  | High     |
+|                        | To verify if the property is linked with any project, then the project name should come with the property address                        | High     |
+|                        | To verify if the property is not linked with any project, then only the property address should get displayed                             | High     |
+|                        | To verify the project name should get displayed as a link and should be clickable                                                        | High     |
+|                        | To verify on click of the project, the user should navigate to the project details page                                                 | High     |
+|                        | To verify the map view option should get displayed at the right side of the address section                                              | High     |
+|                        | To verify map icon and 'see on map >' should get displayed                                                                               | High     |
+|                        | To verify on click of 'see on map' link, the user should navigate to the map view of the property                                           | High     |
+| If user has searched a landmark | To verify for landmark search, the distance from landmark to be shown for properties on the map                                        | High     |
+|                        | To verify a tooltip should get displayed on the landmark                                                                                | High     |
+|                        | To verify the following info should be shown on the tooltip: - Landmark address - Distance from properties                               | High     |
+|                        | To verify for locality search, distance should not be shown for properties on the map                                                    | High     |
+|                        | To verify for the explore neighborhood section, landmark search distance from the landmark to be shown for properties on the map        | High     |
+|                        | To verify if the user searched any landmark from the map screen, then the latest searched info should be displayed on the tooltip       | High     |
+|                        | To verify landmark pointers should be displayed at the center of the screen                                                             | High     |
+|                        | To verify after refreshing the page, landmark pointers should not be displayed                                                           | High     |
+|                        | On click of results for available search options, result pointer and landmark pointer both should get displayed                          | High     |
+| Price Breakup Modal    | To verify on click of the Price Breakup link, a modal should get open with the text 'Price Breakup'                                       | High     |
+|                        | To verify the background should get displayed as dark after opening the modal                                                            | High     |
+|                        | To verify the background should not be scrollable if the offer modal has opened                                                           | High     |
+|                        | To verify at the top of the offer popup, Price and apartment type should be mentioned                                                    | High     |
+|                        | To verify Price breakup section should be divided into below categories: - Monthly - One-time charges - Refundable                      | High     |
+|                        | To verify if any one of the categories' information is not available, then that category should not be displayed                          | High     |
+|                        | To verify categories should get displayed with their respective icons                                                                    | High     |
+|                        | To verify for the monthly category should display with the below information: - Rental - Parking charges - Maintenance charges          | High     |
+|                        | To verify for the One-time charges category should get displayed with the below information: - Brokerage - Painting charges              | High     |
+|                        | To verify the text right side of the brokerage and painting charges (15 days rent, 1 month rent) should get displayed if applicable     | High     |
+|                        | To verify if brokerage charges are not applicable, then the text should get displayed 'No Brokerage'                                    | High     |
+|                        | To verify if painting charges are not applicable, then this should not be displayed on the modal                                         | High     |
+|                        | To verify a link should get displayed below the 'Brokerage' price 'Access Zero Brokerage Properties'                                      | High     |
+|                        | To verify on click of 'Access Zero Brokerage Properties' link, the user should navigate to 'https://housing.com/premium' page              | High     |
+|                        | To verify for the Refundable category should get displayed with the below information: - Security deposit - Lock-in period              | High     |
+|                        | To verify the rent-o-meter section should get displayed                                                                                  | High     |
+|                        | To verify the "Was this helpful?" section should get displayed below the rent-o-meter section                                            | High     |
+|                        | To verify 'Was this helpful?' text and Like and dislike buttons should get displayed                                                      | High     |
+|                        | To verify on click of the like button, the like button should get highlighted with a blue color icon                                     | High     |
+|                        | To verify text 'Thanks😊 Feedback Noted.' should get displayed in place of 'Was this helpful' after clicking on the 'like' button           | High     |
+|                        | To verify on click of the dislike button, the dislike button should get highlighted with a blue color icon                               | High     |
+|                        | To verify text 'Thanks😊 will be improvising' should get displayed in place of 'Was this helpful' after clicking on the 'dislike' button   | High     |
+|                        | To verify chat and contact button should get displayed at the end of the price breakup modal                                            | High     |
+|                        | To verify on click of CTA, the lead form should get open for non-logged-in user                                                         | High     |
+|                        | To verify after entering correct details, leads should be dropped successfully                                                          | High     |
+|                        | To verify on click of CTA, lead should get dropped successfully for logged-in user                                                       | High     |
+|                        | To verify if the user doesn't drop the lead and closes the CRF, then the 'save for later' modal should get open                           | High     |
+|                        | To verify at the top of the Price breakup modal, Price and apartment type should be mentioned                                           | High     |
+|                        | To verify at the top of the Price breakup modal, the background image should be the 1st image of the property                             | High     |
+|                        | To verify at the top of the Price breakup modal, if the property image is not available, then the request images background images should get displayed | High     |
+|                        | To verify at the top of the Price breakup modal, if the property image is under verification, then the background image should be the cover image of the photo under verification | High     |
+|                        | To verify a cross icon should be present at the top of the modal                                                                        | High     |
+|                        | To verify on click of the cross icon, the modal should get closed                                                                        | High     |
+|                        | To verify the modal should get closed when users click outside of the modal                                                             | High     |
+| Contact Seller Card   | To verify below the address and map section, the contact seller card section should get displayed                                       | High     |
+|                        | To verify the following parameters should get displayed on the contact seller card section: - Seller housing image with Badges if available - Last update date of property - Seller Name - Seller profile type - Partial phone number - Chat Now button - Fomo message of currently viewing person | High     |
+|                        | To verify on click of the chat now button, a chat modal should get open                                                                   | High     |
+|                        | To verify on click of the back button from the chat modal, a lead should get dropped                                                     | High     |

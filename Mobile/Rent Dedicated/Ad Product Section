@@ -1,0 +1,7 @@
+| Test Case Description                                    | Priority |
+| -------------------------------------------------------- | -------- |
+| To verify ad product should get displayed at the top of the page | High     |
+| To verify ad product should get displayed for free owner properties | Medium   |
+| To verify on click of ad product CRF form should get open | Medium   |
+| To verify the lead should successfully drop if the user has submitted correct information | Medium   |
+| To verify if the user didn't drop the lead and close the CRF, then the "Save for Later" popup should get displayed | Medium   |

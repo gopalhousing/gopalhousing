@@ -1,0 +1,23 @@
+Here's the list of additional test cases with the module, description, and priority in a table format:
+
+| Module                | Description                                                                                                                   | Priority |
+| --------------------- | ----------------------------------------------------------------------------------------------------------------------------- | -------- |
+| Offer Icon Animation  | To verify if there are offers present, then a % icon animation should get displayed                                         | High     |
+|                       | To verify offers should display to the right side of the % icon                                                               | High     |
+|                       | To verify if there are multiple offers, then all offers should get displayed as . separated                                  | High     |
+|                       | To verify if there are 2 or more than 2 offers are present, then the > icon should get displayed                              | High     |
+| Offer modal           | To verify on click of the > icon, the offer modal should get displayed                                                        | High     |
+|                       | To verify the background should get displayed as dark after opening the modal                                                  | High     |
+|                       | To verify the background should not be scrollable if the offer modal has opened                                               | High     |
+|                       | To verify at the top of the offer popup, Price and apartment type should be mentioned                                          | High     |
+|                       | To verify at the top of the offer popup, the background image should be the 1st image of the property                          | High     |
+|                       | To verify at the top of the offer popup, if the property image is not available, then the request images background image should get displayed | High     |
+|                       | To verify at the top of the offer popup, if the property image is under verification, then the background image should be the cover image of the photo under verification | High     |
+|                       | To verify the Offers text should get displayed in bold color with the % icon                                                    | High     |
+|                       | To verify all the offers should get displayed below the offer text                                                            | High     |
+|                       | To verify a right icon should get displayed in front of every offer in red color                                                | High     |
+|                       | To verify two CTA should get displayed: - Chat - Contact agent/Owner/seller                                                    | High     |
+|                       | To verify if the user clicks on the contact CTA and is unable to drop the lead, then the 'save for later' popup should get displayed | High     |
+|                       | To verify a cross icon should be present at the top of the modal                                                              | High     |
+|                       | To verify on click of the cross icon, the modal should get closed                                                              | High     |
+|                       | To verify the modal should get closed when the user clicks outside of the modal                                               | High     |

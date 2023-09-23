@@ -1,0 +1,14 @@
+| Test Case Description                                         | Priority |
+| ------------------------------------------------------------- | -------- |
+| To verify below mentioned details are coming related to property: | High     |
+| - Application Back icon                                       |          |
+| - Property Name                                               |          |
+| - Chat icon                                                    |          |
+| - Call icon                                                    |          |
+| - SEO Three dots Menu Bar                                     |          |
+| To verify SEO links are clickable                             | High     |
+| To verify SEO link is getting opened in the same window and SERP is getting displayed | High     |
+| To verify the user is getting landed on the last visited page on clicking the application back button | High     |
+| To verify lead form is getting opened on clicking the call button | High     |
+| To verify if the user is already in a logged-in state, then a single click CTA should work for dropping the lead from the call icon | High     |
+| To verify the header section is scrollable throughout the page, i.e., the header section should be visible when the user is scrolling the page from top to bottom | High     |

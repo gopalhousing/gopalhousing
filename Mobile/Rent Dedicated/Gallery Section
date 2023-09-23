@@ -1,0 +1,31 @@
+| Module                | Description                                                                                                   | Priority |
+| --------------------- | ------------------------------------------------------------------------------------------------------------- | -------- |
+| Load image            | To verify 'Hang in there...' message should get displayed if images are in the loading state                  | High     |
+|                       | To verify if images are loaded, then 'Hang in there...' message should get removed                            | High     |
+| Request Image         | To Verify that if a listing doesn't have any images, the 'Request Images' button should be displayed in the gallery section | High     |
+|                       | To verify on click of 'Request Images' button, "We will ask the seller to revert back with photos" should be displayed as the heading on CRF | High     |
+|                       | To verify that if the user enters correct details, then the lead should be submitted                           | High     |
+| Image under verification | To verify if photos are under verification, then 'Photos under verification' message should get displayed with a tooltip | High     |
+|                           | To verify on click of the tooltip, a popup should display with a message                                        | High     |
+|                           | To verify photo under verification image work as a cover image, if images are not verified                      | High     |
+| Image are present     | "To verify below mentioned should appear on Gallery of rent-dedicated page - Total count of images attached to a property - Text stating 'Tap to see all images' - Seen tag when property/project is seen by user - Verified tag: if the property is in the verified state - View similar properties - Share and save icon" | High     |
+|                       | To verify gallery should open only when at least a single image is available related to property               | High     |
+|                       | To verify gallery is not getting opened on clicking No property image                                          | High     |
+|                       | To verify that on the top fold of the image section, a “similar properties” button should be displayed          | High     |
+|                       | To verify that the button should have an expandable animation with an icon and text should be 'View Similar properties' | High     |
+|                       | To verify that on click of similar property button, a popup should be open                                      | High     |
+|                       | To verify that on this popup similar properties cards should be displayed                                        | High     |
+|                       | If similar property is not present then message should be displayed as 'No similar properties found'          | High     |
+|                       | To verify that a cross button should be displayed, and on click of the popup, should be closed                   | High     |
+| Share action          | To verify on click of share icon a share modal should get open with text 'Share with your family & friends'     | High     |
+|                       | To verify Property name and price should get displayed below the text 'Share with your family & friends'        | High     |
+|                       | "To verify below options should get displayed to share the gallery images - Copy to clipboard - WhatsApp - Facebook - Mail - Twitter" | High     |
+| Save Action           | To verify for a logged-in user on click of the save icon, the user can able to shortlist the property           | High     |
+|                       | To verify for a non-logged-in user on click of the save icon, a logged-in modal should get open                 | High     |
+|                       | To verify after entering correct details user can successfully login and shortlist the property                | High     |
+| Images and video are present | To verify if a video is present in the gallery, then the video play icon should get displayed and the 1st image of the property should display as the background image | High     |
+|                              | To verify on click of the video play icon gallery should get open with playing video                            | High     |
+| Video, 3D tour and images are present | To verify If 3D tour is present on property then 'View 3D Property Tour' should get displayed and 1st image of property should display as background image | High     |
+|                                      | To verify on click of 'View 3D Property Tour' text user should navigate to the digilight tour page              | High     |
+|                                      | To verify if the user has clicked anywhere on the gallery section except the text 'view 3D property tour' text, then gallery images should get displayed | High     |
+|                                      | To verify In case of properties having both 3D Property tour and video, 3D property tour’s screen will be having higher priority than the video screen | High     |
